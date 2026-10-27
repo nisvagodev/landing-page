@@ -22,6 +22,10 @@ header {
   background-color: #1f2937;
 }
 
+.hero-container {
+  background-color: #1f2937;
+}
+
 .container {
   width: 60%;
   margin: auto;
