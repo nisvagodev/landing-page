@@ -25,7 +25,8 @@ a {
 }
 
 header,
-.hero {
+.hero,
+footer {
   background-color: #1f2937;
 }
 
@@ -152,4 +153,11 @@ header,
   border: 1px solid #f9faf8;
   color: #f9faf8;
   border-radius: 8px;
+}
+
+footer {
+  padding: 28px 0;
+  display: flex;
+  justify-content: center;
+  color: #e5e7eb;
 }
