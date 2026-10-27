@@ -105,3 +105,50 @@ header,
   border: 4px solid #3882f6;
   border-radius: 12px;
 }
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote-container {
+  padding: 48px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.quote-container p:first-child {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-container p:last-child {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+.cta {
+  padding: 68px;
+}
+
+.cta-container {
+  background-color: #3882f6;
+  padding: 28px 86px;
+  display: flex;
+  gap: 48px;
+  justify-content: space-between;
+  align-items: center;
+  color: #f9faf8;
+  border-radius: 8px;
+}
+
+.cta-container button {
+  flex-shrink: 0;
+  padding: 8px 28px;
+  background: none;
+  border: 1px solid #f9faf8;
+  color: #f9faf8;
+  border-radius: 8px;
+}
