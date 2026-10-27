@@ -19,11 +19,13 @@ a {
 }
 
 header {
-  display: flex;
   background-color: #1f2937;
-  padding: 16px;
-  justify-content: center;
-  align-items: center;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  height: 100%;
 }
 
 .logo {
